@@ -1,0 +1,29 @@
+Modificadores
+private = *		|   public = +
+
+
++ main():Unit
+
+En la función main() comienza la ejecución de las instrucciones
+y hay estan las 4 instancias de la clase Libro que sirven para
+que el programa funcione como se necesita.
+
+|---------------------------------------------------|
+|						Libro				    	|
+|___________________________________________________|
+|							  		    			|
+| 	+ titulo : String								|
+|	+ autor : String								|
+|	+ ISBN : String									|
+|	+ precio : Int									|
+|	+ numeroPaginas : Int							|
+|	+ stockMaximo : Int								|
+|	+ cantidadDisponible : Int    					|
+| 													|
+|___________________________________________________|
+|													|
+|   + constructor(String,String,String,Int,Int)		|			
+|	+ prestar():Boolean								|
+|	+ devolver():Unit								|
+|	+ override toString():String              		|
+|___________________________________________________|

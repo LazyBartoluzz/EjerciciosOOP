@@ -1,0 +1,54 @@
+Modificadores
+private = *		|   public = +
+static = s		
+
+|---------------------------|        
+|			Main1			|
+|___________________________|
+|							|
+|___________________________|	
+|							|
+| + s main(String[]):void   |
+|___________________________|
+
+En el método main() se crea un objeto de la clase Cajero
+y este se usa allí, por lo que no
+hay objetos cuentas bancarias (estas estan dentro de Cajero).
+
+|---------------------------------------|
+|			Cajero					    |
+|_______________________________________|
+|							  		    |
+|  * arrCuentas:CuentaBancaria[]  		|
+| 										|
+|_______________________________________|	
+|										|
+| + hacerRetiro(Integer,Integer):void   |
+| + hacerDeposito(Integer,Integer):void |
+| + mostrarLasCuentas():void            |
+|_______________________________________|	
+
+
+
+
+|---------------------------------------|
+|			CuentaBancaria				|
+|_______________________________________|
+|							  		    |
+| 	* titular : String					|
+|	* saldo : Integer					|
+|	* numero : integer					|
+|	* s cantidadCuentas : Integer    	|
+| 										|
+|_______________________________________|	
+|										|
+|   + CuentaBancaria(String)			|		
+|	+ getTitular():String				|
+|	+ setTitular(String):void			|
+|	+ getSaldo():Integer				|
+|	+ depositarSaldo(Integer):void		|
+|	+ retirarSaldo(Integer):void		|
+|	+ getNumero(Integer):Integer		|
+|	+ setNumero(Integer):void			|
+|	+ override toString():String        |      
+|_______________________________________|
