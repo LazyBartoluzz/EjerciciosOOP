@@ -9,21 +9,21 @@ y hay estan las 4 instancias de la clase Libro que sirven para
 que el programa funcione como se necesita.
 
 |---------------------------------------------------|
-|						Libro				    	|
+|					           	Libro		                      |		
 |___________________________________________________|
-|							  		    			|
-| 	+ titulo : String								|
-|	+ autor : String								|
-|	+ ISBN : String									|
-|	+ precio : Int									|
-|	+ numeroPaginas : Int							|
-|	+ stockMaximo : Int								|
-|	+ cantidadDisponible : Int    					|
-| 													|
+|							  		    			                      |
+| 	+ titulo : String								                |
+|	+ autor : String								                  |
+|	+ ISBN : String									                  |
+|	+ precio : Int									                  |
+|	+ numeroPaginas : Int							                |
+|	+ stockMaximo : Int								                |
+|	+ cantidadDisponible : Int    					          |
+| 													                        |
 |___________________________________________________|
-|													|
-|   + constructor(String,String,String,Int,Int)		|			
-|	+ prestar():Boolean								|
-|	+ devolver():Unit								|
-|	+ override toString():String              		|
+|													                          |
+|   + constructor(String,String,String,Int,Int)		  |		
+|	+ prestar():Boolean								                | 
+|	+ devolver():Unit								                  |
+|	+ override toString():String              		    |
 |___________________________________________________|
